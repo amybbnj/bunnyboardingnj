@@ -1,0 +1,23 @@
+.bunny-boarding-services {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.bunny-boarding-services p {
+  padding-top: 160px;
+  color: black;
+  font-size: 33px;
+}
+
+.summary-price {
+  background-color: rgb(255, 216, 222);
+  display: flex;
+  justify-content: center;
+}
+
+.summary-price p {
+  color: black;
+  font-size: 18px;
+  line-height: 1.8;
+}

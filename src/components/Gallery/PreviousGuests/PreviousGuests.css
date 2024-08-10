@@ -1,0 +1,15 @@
+.previous-guests {
+  background-color: rgb(255, 223, 229);
+  color: black;
+  padding-top: 10px;
+}
+
+.previous-guests-text-container {
+  font-size: 24px;
+}
+
+.previous-guests-gallery-container {
+  margin: auto;
+  padding-bottom: 30px;
+  width: 1000px;
+}

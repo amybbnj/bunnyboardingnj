@@ -1,0 +1,51 @@
+header {
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow for depth */
+  height: 180px;
+}
+
+.header-title {
+  font-size: 42px;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  color: black; /* Sets the title color to black */
+}
+
+nav ul {
+  color: black;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit; /* Inherits color from parent elements */
+  display: inline-block; /* Aligns the icon and text properly */
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.local-links {
+  font-size: 24px;
+}
+
+.local-links-spacing {
+  padding: 30px;
+}
+
+/* FontAwesome Icon Styles */
+.fa-facebook { color: #3b5998; } /* Facebook Icon Color */
+.fa-google { color: #dd4b39; } /* Google Icon Color */
+.fa-yelp { color: #d32323; } /* Yelp Icon Color */

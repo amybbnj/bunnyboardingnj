@@ -1,0 +1,10 @@
+.instructions-container {
+  text-align: left;
+  width: 40%;
+  margin-left: auto;
+  padding-right: 45px;
+  padding-top: 10px;
+  font-size: 20px;
+  max-width: 400px;
+  min-width: 300px;
+}

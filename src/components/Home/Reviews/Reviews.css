@@ -1,0 +1,102 @@
+.carousel-and-bubbles-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 223, 229);
+  justify-content: space-between;
+  padding-top: 10px;
+  min-width: 450px;
+
+}
+
+.carousel {
+  display: flex;
+  background-color: rgb(255, 223, 229);
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+}
+
+.prev svg,
+.next svg {
+  height: 50px; /* Set the height of the SVG */
+  width: auto; /* Ensure the width maintains aspect ratio */
+}
+
+.prev {
+  margin-left: 100px;
+}
+
+.next {
+  margin-right: 100px;
+  transform: rotate(180deg);
+}
+
+.carousel-inner {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  color: black;
+  background-color: white;
+  min-width: 350px;
+}
+
+.slide {
+  text-align: center;
+  line-height: 2;
+  min-width: 340px;
+}
+
+button {
+  cursor: pointer;
+  margin: 5px;
+  border: none;
+  background-color: transparent;
+}
+
+button:hover {
+  border: none;
+}
+
+button:active {
+  background-color: transparent;
+  border: none;
+}
+
+.carousel-nav {
+  justify-content: center;
+  height: 60px;
+  padding-top: 10px;
+  display: flex;
+  display: inline-block;
+  vertical-align:auto;
+}
+
+.nav-circle {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-circle.selected {
+  background-color: transparent;
+  border: 2px solid white;
+  display: inline-block;
+  cursor: pointer;
+}

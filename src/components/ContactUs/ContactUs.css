@@ -1,0 +1,15 @@
+.contact-us {
+  color: black;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 100vw;
+}
+
+.contact-us-text-container {
+  font-size: 32px;
+}
+
+.contact-us-para-container p {
+  line-height: 1.8;
+  font-size: 18px;
+}

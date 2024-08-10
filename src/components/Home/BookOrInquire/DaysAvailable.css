@@ -1,0 +1,19 @@
+.days-available-container {
+  border: 1px solid #636363;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.8), /* larger bottom shadow */
+              0 2px 4px rgba(0, 0, 0, 0.1), /* small left and right side shadows */
+              0 -2px 4px rgba(0, 0, 0, 0.05); /* small top shadow for consistency */
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  width: 40%;
+  max-width: 400px;
+  min-width: 350px;
+  margin-left: auto;
+}
+
+.days-available-green-text-container {
+  color: green;
+  font-size: 20px;
+  padding-bottom: 8px;
+}

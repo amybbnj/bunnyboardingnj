@@ -1,0 +1,15 @@
+.room-setup {
+  background-color: rgb(233, 233, 233);
+  color: black;
+  padding-top: 150px;
+}
+
+.room-setup-text-container {
+  font-size: 24px;
+}
+
+.room-setup-gallery-container {
+  margin: auto;
+  padding-bottom: 30px;
+  width: 1000px;
+}
