@@ -2,21 +2,22 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Home from './pages/Home'; // Adjust the path as needed
 import Gallery from './pages/Gallery'; // Adjust the path as needed
 import Header from './components/Header/Header';
-import ContactUs from './components/ContactUs/ContactUs';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
     <Router>
-      <div className="App">
+      {/* <div className="App"> */}
+      <div className="container-fluid px-0">
         <Header />
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="*" element={<Navigate to="/home" replace />} />
         </Routes>
-        <ContactUs />
+        {/* <ContactUs /> */}
+      {/* </div> */}
       </div>
     </Router>
   );

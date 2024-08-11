@@ -10,14 +10,25 @@
   font-size: 33px;
 }
 
-.summary-price {
-  background-color: rgb(255, 216, 222);
-  display: flex;
-  justify-content: center;
+.pink-color {
+  background-color: rgb(235, 207, 195);
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
-.summary-price p {
-  color: black;
-  font-size: 18px;
-  line-height: 1.8;
+
+/* Responsive styles for phones */
+@media (max-width: 600px) {
+  .bunny-boarding-services {
+    flex-direction: column;
+  }
+
+  .bunny-boarding-services p {
+    padding-top: 20px; /* Reduce top padding */
+    font-size: 24px; /* Adjust font size for smaller screens */
+    text-align: center;
+  }
+
+
+
 }

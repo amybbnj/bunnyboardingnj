@@ -1,15 +1,9 @@
-.room-setup {
-  background-color: rgb(233, 233, 233);
-  color: black;
-  padding-top: 150px;
+
+
+/* Base style for images */
+.gallery-image {
+  width: 100%; /* Full width relative to its parent */
+  height: auto;
+  object-fit: scale-down; /* Covers the area, cropping as needed */
 }
 
-.room-setup-text-container {
-  font-size: 24px;
-}
-
-.room-setup-gallery-container {
-  margin: auto;
-  padding-bottom: 30px;
-  width: 1000px;
-}

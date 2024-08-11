@@ -1,26 +1,30 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faGoogle, faYelp } from '@fortawesome/free-brands-svg-icons';
+
 import { Link } from 'react-router-dom';
 import './Header.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Header = () => {
   return (
-    <header>
-      <p className='header-title'>BUNNY BOARDING NJ</p>
-      <nav>
-        <ul>
-          <li><Link className='local-links' to="/home">Home</Link></li>
-          <li className='local-links-spacing'></li>
-          <li><Link className='local-links' to="/gallery">Gallery</Link></li>
-        </ul>
-        <ul>
-          <li><a href="https://www.facebook.com/profile.php?id=100095074532502&paipv=0&eav=AfZUPaPkHTG8Nz-0k9qvz1k7S7mzsJ04A8oL5_H0BuTdwhCu8Tbj12VcSzC0REG9SwI" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /> Facebook</a></li>
-          <li><a href="https://maps.app.goo.gl/nejac5f36jGbkgQj8" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGoogle} /> Google Maps</a></li>
-          <li><a href="https://www.yelp.com/biz/bunny-boarding-nj-belleville" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faYelp} /> Yelp</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div className="container-fluid py-0">
+
+      <div className="row">
+        <p className='header-title text-center'>BUNNY BOARDING NJ</p>
+      </div>
+
+
+        <div className="row">
+          <div className="col-6 text-center">
+            <button type="button" className="btn btn-dark"><Link className='local-links' to="/home" style={{ color: 'white'}}>Home</Link></button>            
+          </div>
+          <div className="col-6 text-center">
+            <button type="button" className="btn btn-dark"><Link className='local-links' to="/gallery" style={{ color: 'white'}}>Gallery</Link></button>
+          </div>
+        </div>
+
+
+        </div>
+
   );
 }
 

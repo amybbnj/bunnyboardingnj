@@ -2,20 +2,3 @@
   background-color: rgb(233, 233, 233);
   color: black;
 }
-
-.faq-text-container {
-  font-size: 32px;
-}
-
-.faq-q-and-a-container {
-  margin: auto;
-  width: 40%;
-  padding-bottom: 30px;
-  min-width: 400px;
-}
-
-.faq-q-and-a-text-container {
-  text-align: left;
-  line-height: 1.8;
-  font-size: 20px;
-}

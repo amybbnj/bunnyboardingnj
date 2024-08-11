@@ -1,13 +1,12 @@
-import PreviousGuests from "../components/Gallery/PreviousGuests/PreviousGuests";
+// import PreviousGuests from "../components/Gallery/PreviousGuests/PreviousGuests";
 import RoomSetup from "../components/Gallery/RoomSetup/RoomSetup";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 const Gallery = () => {
   return (
     <div className="gallery">
-      Welcome to the Gallery Page!
       <div>
         <RoomSetup />
-        <PreviousGuests />
+        {/* <PreviousGuests /> */}
       </div>
     </div>
   );
