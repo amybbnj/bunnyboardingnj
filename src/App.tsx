@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Router>
       {/* <div className="App"> */}
-      <div className="container-fluid px-0">
+      <div className="container-fluid px-0 mx-0 full-width">
         <Header />
         <Routes>
           <Route path="/home" element={<Home />} />

@@ -6,13 +6,13 @@ const Faq = () => {
     <div className="container-fluid px-0 pt-3">
 
       {/* <div className='summary-price'> */}
-      <div className="row text-center pt-3 bg-light"><h4>FAQ</h4></div>
+      <div className="row text-center pt-3 bg-light mx-0"><h4>FAQ</h4></div>
 
-      <div className="row text-left pb-3 bg-light">        
-        <div className="col-2 col-lg-3">
+      <div className="row text-left pb-3 bg-light mx-0">        
+        <div className="col-1 col-lg-3">
         </div>
 
-        <div className="col-8 col-lg-6 text-left">
+        <div className="col-10 col-lg-6 text-left">
           <p>
             <strong>1. Where will my rabbit be kept?<br /></strong>
             A designated enclosure in the living room or the finished basement, fenced in with two extra-large play pens, giving over 30 sqft of room to explore and enjoy! Take a look at the gallery to view the setup.<br />
@@ -46,7 +46,7 @@ const Faq = () => {
             </p> 
         </div>
 
-        <div className="col-2 col-lg-3">
+        <div className="col-1 col-lg-3">
         </div>
 
       </div>

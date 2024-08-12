@@ -8,7 +8,7 @@
   /* Responsive styles for phones */
   @media (max-width: 600px) {
     .comment_div {
-        height: 55vh; /* Default to 50vh for smaller screens */
+        height: 65vh; /* Default to 50vh for smaller screens */
         align-items: center; /* This line aligns the text vertically */
         justify-content: center;
       } 

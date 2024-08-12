@@ -5,9 +5,9 @@ const BookOrInquire = () => {
   return (
     <div className="container-fluid px-0">
 
-      <div className="row text-center"><h4>Book or Inquire</h4></div>
+      <div className="row text-center mx-0"><h4>Book or Inquire</h4></div>
 
-      <div className="row pb-3">
+      <div className="row pb-3 mx-0">
         <div className="col d-flex justify-content-center text-center">
         <div className="card border" style={{width: '20rem'}}>
           <div className="card-header">
@@ -21,7 +21,7 @@ const BookOrInquire = () => {
         </div>
       </div>
 
-      <div className="row pb-3">
+      <div className="row pb-3 mx-0">
         <div className="col d-flex justify-content-center text-center">
         <div className="card border" style={{width: '20rem'}}>
           <div className="card-body">

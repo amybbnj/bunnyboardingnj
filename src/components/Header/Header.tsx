@@ -6,14 +6,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {
   return (
-    <div className="container-fluid py-0">
+    <div className="container-fluid pt-3 px-0 mx-0 100%">
 
-      <div className="row">
+      <div className="row mx-0">
         <p className='header-title text-center'>BUNNY BOARDING NJ</p>
       </div>
 
 
-        <div className="row">
+        <div className="row mx-0">
           <div className="col-6 text-center">
             <button type="button" className="btn btn-dark"><Link className='local-links' to="/home" style={{ color: 'white'}}>Home</Link></button>            
           </div>
