@@ -26,7 +26,9 @@ const BookOrInquire = () => {
         <div className="card border" style={{width: '20rem'}}>
           <div className="card-body">
             <p className="text-success fw-bold">Days Available:</p>
-            <p className="text-success">9/2/2024 - 9/30/2024: 
+            <p className="text-success">1/15/2025-1/20/2025;
+              <br></br> 2/17/2025-2/21/2025;
+              <br></br> 5/1/2025-5/31/2025
               <br></br>Limited availability: bunny care will be provided only at night. <br></br>Please book with us if you're okay with your bunny spending the daytime alone.</p>
             <p>Contact us via email at <strong>amybbnj@gmail.com</strong></p>
           </div>

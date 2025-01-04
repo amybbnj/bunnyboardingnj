@@ -37,7 +37,7 @@ const Faq = () => {
             </p>  
             <p>
               <strong>5. My bunny requires frequent care and attention. Are you the right choice for me?<br /></strong>
-              No, we will be away during the day for at least three days each week. We offer bunny care during nighttime. Please only book with us if you are comfortable with your bunny being left alone during the day.
+              No, we may be away during the day. We offer bunny care during nighttime. Please only book with us if you are comfortable with your bunny being left alone during the day.
             </p>    
 
             <p>
